@@ -1,4 +1,4 @@
-import { IconLogo } from '../assets/icons-group'
+import { IconLogo, IconInstagram, IconFacebook } from '../assets/icons-group'
 import '../styles/Navbar.css'
 
 const Navbar = () => {
@@ -27,11 +27,19 @@ const Navbar = () => {
           <li>
             <a href='/'>CONTACT</a>
           </li>
-          <li className='container-btns-media'>
-            <button>MARIA REINA PARISH</button>
-            <div>
-              <img src="" alt="" />
-              <img src="" alt="" />
+          <li className='container-btns'>
+            <button
+              type='button'
+              className='btn-secundary'>
+              MARIA REINA PARISH
+            </button>
+            <div className='btns-social-media'>
+              <button>
+                <IconInstagram />
+              </button>
+              <button>
+                <IconFacebook />
+              </button>
             </div>
           </li>
         </ul>
