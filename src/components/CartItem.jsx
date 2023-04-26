@@ -26,4 +26,4 @@ CartItem.propTypes = {
   title: PropTypes.string.isRequired
 }
 
-export default CartItem
+export default CartItem 
