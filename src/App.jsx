@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import BannerSoundtrack from "./containers/BannerSoundtrack"
 import BannerVideo from "./containers/BannerVideo"
 import Events from "./containers/Events"
 import Memories from "./containers/Memories"
@@ -12,6 +13,7 @@ const App = () => {
       <Events />
       <TheCrew />
       <Memories />
+      <BannerSoundtrack />
     </>
   )
 }

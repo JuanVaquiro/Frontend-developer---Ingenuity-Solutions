@@ -1,0 +1,23 @@
+.Banner {
+  margin-top: 220px;
+}
+
+.gradient {
+  display: flex;
+  height: 572px;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 2%, rgba(42, 197, 182, 1) 100%);
+}
+
+.container-img {
+  margin-top: -168px;
+}
+
+.playlist {
+  width: 250px;
+}
+
+.container-img-2 {
+  margin-right: 248px;
+}
