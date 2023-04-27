@@ -47,7 +47,7 @@ function JoinUs() {
           </div>
         </div>
         <div>
-          <img src={Communication} alt="img" />
+          <img className="img-join" src={Communication} alt="img" />
         </div>
       </article>
     </section>

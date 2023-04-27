@@ -11,10 +11,11 @@
   display: flex;
   gap: 84px;
   align-items: center;
+  flex-direction: column-reverse;
   justify-content: space-evenly;
   background-color: #F5F5F5;
   border-radius: 20px;
-  width: 1224px;
+  width: 300px;
   height: 614px;
   padding: 38px;
 }
@@ -45,12 +46,32 @@
   color: #285C58;
 }
 
+.img-join {
+  width: 328px;
+}
+
+@media (min-width: 1280px) {
+  .container-items-join {
+    flex-direction: row;
+    width: 1224px;
+  }
+
+  .img-join {
+    width: auto;
+  }
+
+  .title-section {
+    font-size: 104px;
+  }
+
+}
 
 @media (min-width: 1536px) {
   .container-items-join {
     width: 1440px;
   }
-  .title-section{
+
+  .title-section {
     font-size: 108px;
   }
 }
