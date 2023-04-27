@@ -9,14 +9,33 @@ Selection test for Frontend developer - Ingenuity & Solutions
 https://juanvaquiro.github.io/Frontend-developer-Ingenuity-Solutions/
 
 
-## Installation
+## Run Locally
 
-Install Frontend-developer with npm
+Clone the project
 
 ```bash
-  npm install 
-  cd project-name
+  git clone https://github.com/JuanVaquiro/Frontend-developer-Ingenuity-Solutions.git
 ```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+Frontend-developer with npm
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
 
 ## Features
 
