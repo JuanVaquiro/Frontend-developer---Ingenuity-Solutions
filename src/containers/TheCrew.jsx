@@ -16,7 +16,7 @@ function TheCrew() {
             <BtnPrimary text='LEARN MORE' />
           </div>
         </div>
-        <div>
+        <div className='item-img'>
           <img src={TheCrewImg} alt="img" />
         </div>
       </article>
