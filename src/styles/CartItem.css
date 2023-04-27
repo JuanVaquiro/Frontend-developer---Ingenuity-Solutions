@@ -1,6 +1,6 @@
 .ProductItem {
-	width: 310px;
-	height: 422px; 
+	width: 354px;
+	height: 183px;
 	border-radius: 20px;
 	object-fit: cover;
 	overflow: hidden;
@@ -44,6 +44,13 @@
 #event4 {
 	background-image: url(../assets/imgs/event4.jpg);
 	background-color: rgb(1 1 16);
+}
+
+@media (min-width: 1280px) {
+	.ProductItem {
+		width: 310px;
+		height: 422px;
+	}
 }
 
 @media (min-width: 1536px) {

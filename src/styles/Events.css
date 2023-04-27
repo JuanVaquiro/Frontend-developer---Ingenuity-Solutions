@@ -13,6 +13,13 @@
 
 .container-item-cart {
   display: flex;
+  flex-direction: column;
   padding: 32px 12px;
   gap: 12px
+}
+
+@media (min-width: 1280px) {
+  .container-item-cart {
+    flex-direction: row;
+  }
 }
