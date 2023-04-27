@@ -1,6 +1,6 @@
 
 import { IconEmail, IconFacebook, IconInstagram, IconLogo, IconTelephone } from '../assets/icons-group'
-import BtnPrimary from '../components/BtnPrimary'
+import BtnPrimary from './BtnPrimary'
 import '../styles/Footer.css'
 
 const Footer = () => {
