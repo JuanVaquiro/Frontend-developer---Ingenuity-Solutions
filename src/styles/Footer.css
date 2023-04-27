@@ -2,8 +2,12 @@
   display: flex;
   height: 448px;
   align-items: center;
-  justify-content: space-around;
   background: #245086;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 48px 24px;
+  gap: 28px;
 }
 
 .container-abaut {
@@ -14,8 +18,12 @@
   justify-content: center;
 }
 
-.container-abaut {
-  font-size: 26px;
+.container-abaut svg {
+  width: 144px;
+}
+
+.container-abaut p {
+  font-size: 16px;
   color: #FFFFFF;
   text-align: center;
 }
@@ -64,7 +72,7 @@
 
 .email-footer label {
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 14px;
 }
@@ -93,4 +101,25 @@
 
 .terms-conditions span {
   opacity: 68%;
+}
+
+
+@media (min-width: 1280px) {
+  .items-footer {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 12px;
+  }
+
+  .container-abaut p {
+    font-size: 26px;
+  }
+
+  .container-abaut svg {
+    width: auto;
+  }
+
+  .email-footer label {
+    font-size: 25px;
+  }
 }
