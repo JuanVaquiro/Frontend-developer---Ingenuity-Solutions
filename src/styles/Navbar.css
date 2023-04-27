@@ -1,7 +1,7 @@
 .nav {
 	display: flex;
 	gap: 16px;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	padding: 0 38px;
 	background-color: #002d63;
@@ -15,10 +15,11 @@
 .container-logo {
 	display: flex;
 	align-items: center;
+	width: 118px;
 }
 
 .navbar-items {
-	display: flex;
+	display: none;
 }
 
 .navbar-items ul {
@@ -80,6 +81,25 @@
 	border-style: none;
 }
 
+
+@media (min-width: 1280px) {
+	.nav {
+		justify-content: space-around;
+	}
+
+	.navbar-items {
+		display: flex;
+	}
+
+	.container-logo {
+		width: auto;
+	}
+
+	.menu-movil {
+		display: none;
+	}
+
+}
 
 @media (min-width: 1280px) {
 	.navbar-items ul {
