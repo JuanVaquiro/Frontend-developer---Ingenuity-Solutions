@@ -1,0 +1,46 @@
+.container-join {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 52px 0;
+  padding: 162px;
+}
+
+.container-items-join {
+  display: flex;
+  gap: 84px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  width: 1440px;
+  height: 614px;
+  padding: 38px;
+}
+
+.form-join {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: #707070;
+  background-color: #FFFFFF;
+  padding: 18ggpx;
+  text-align: center;
+}
+
+.items-text-join {
+  max-width: 700px;
+}
+
+.items-text-join p {
+  font-size: 20px;
+  color: #285C58;
+}
