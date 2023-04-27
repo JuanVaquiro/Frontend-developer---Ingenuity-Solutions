@@ -41,13 +41,12 @@ const Footer = () => {
             type="email"
             id="helper-text"
             aria-describedby="fhelper-text-explanation"
-            className="form-input"
+            className="form-input-footer"
             placeholder="Your Email"
           />
           <BtnPrimary text='SEND' />
         </div>
       </div>
-
       <div className='terms-conditions'>
         <span>
           Terms & Conditions | Privacy
