@@ -1,16 +1,11 @@
 .ProductItem {
-	width: 398px;
-	height: 468px;
+	width: 310px;
+	height: 422px; 
 	border-radius: 20px;
 	object-fit: cover;
 	overflow: hidden;
 	background-color: #000000a6;
 }
-
-/*
-width: 310px;
-height: 422px; 
-g*/
 
 .container-item {
 	display: flex;
@@ -49,4 +44,11 @@ g*/
 #event4 {
 	background-image: url(../assets/imgs/event4.jpg);
 	background-color: rgb(1 1 16);
+}
+
+@media (min-width: 1536px) {
+	.ProductItem {
+		width: 398px;
+		height: 468px;
+	}
 }
