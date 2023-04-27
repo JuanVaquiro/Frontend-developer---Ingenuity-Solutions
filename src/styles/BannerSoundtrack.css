@@ -4,14 +4,20 @@
 
 .gradient {
   display: flex;
-  height: 572px;
+  flex-direction: column-reverse;
   align-items: center;
-  justify-content: space-around;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 2%, rgba(42, 197, 182, 1) 100%);
+  justify-content: center;
+  background: rgb(42, 197, 182);
+  background: linear-gradient(0deg, rgba(42, 197, 182, 1) 14%, rgba(0, 0, 0, 1) 91%);
 }
 
 .container-img {
   margin-top: -168px;
+}
+
+.container-img img {
+  width: 528px;
+  margin-top: 168px;
 }
 
 .playlist {
@@ -19,5 +25,25 @@
 }
 
 .container-img-2 {
-  margin-right: 248px;
+  margin-top: 39px;
+}
+
+@media (min-width: 1280px) {
+  .gradient {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 572px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 2%, rgba(42, 197, 182, 1) 100%);
+  }
+
+  .container-img-2 {
+    margin-right: 248px;
+    margin-top: 0px;
+  }
+
+  .container-img img {
+    width: auto;
+    margin-top: 0;
+  }
+
 }
